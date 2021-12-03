@@ -1,0 +1,82 @@
+.container{
+    margin-right: 10%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.img{
+    flex: 1;
+    display: flex;
+}
+.image{
+    width: 100%;
+    height: auto;
+}
+.info{
+    flex: 1;
+}
+.cost{
+    color: red;
+    font-size: 50px;
+}
+.tocart{
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+}
+.button{
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.amount{
+    margin-left: 20px;
+    width: 50px;
+    height: 40px;
+    font-size: 40px;
+    justify-content: center;
+}
+.cart{
+    border: 1px solid black;
+    border-radius: 3%;
+    background-color: rgb(75, 221, 240);
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.cart:hover{
+    background-color: aqua;
+    transition: all 0.75ms ease;
+    transform: translateY(-5px);
+}
+
+.sources{
+    width: 100%;
+    height: 270px;
+    display: flex;
+    background-color: rgb(238, 93, 93);
+}
+.feature{
+    flex: 1;
+}
+.spec{
+    flex: 1;
+}
+.group{
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+}
+.icon{
+    color: white;
+}
+.letter{
+    color: white;
+}

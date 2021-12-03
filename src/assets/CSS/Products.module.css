@@ -1,0 +1,90 @@
+.container{
+    width: 100vw;
+    height: auto;
+    background-color: rgb(211, 216, 216);
+}
+.product{
+    width: 30%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 40px ;
+    height: 65vh;
+    background-color: azure;
+    position: relative;
+    
+}
+
+.back{
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(63, 63, 63, 0.938);
+    z-index: 2;
+}
+
+.button{
+    border: 2px solid white;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 10%;
+    background-color: rgba(231, 231, 231, 0.7);
+    margin-left: 35%;
+    margin-top: 40%;
+    cursor: pointer;
+}
+
+.img{
+    width: 95%;
+    height: auto;
+    
+    object-fit: cover;
+}
+.paginate{
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    border:none;
+    border-image: initial;
+    float: left;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+li{
+    appearance: auto;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    margin: 10px;
+    padding: 5px 15px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+}
+li:hover{
+background-color: rgb(173, 173, 173);
+}
+.active{
+    color: aqua;
+}
