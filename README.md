@@ -3,5 +3,4 @@
 ### npm install material-ui
 ### npm install @mui/icons-material
 ### npm install styled-components
-### npm i @syncfusion/ej2-react-calendars --save
-### npm install react-infinite-calendar
+### npm install react-router-dom
